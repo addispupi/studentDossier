@@ -46,7 +46,7 @@ require_once("firewall/database.php");
             <td class="list"><?php echo $stdrow['stdFName']." ".$stdrow['stdLName']; ?></td>
             <td class="list" style="text-align:center;"><?php echo $stdrow['stdSec']; ?></td>
             <td class="list"><?php echo $stdrow['stdDep']; ?></td>
-        <tr>
+        </tr>
     <?php }while($stdrow = $db->fetchAssoc($stdquery)); ?>
     </tbody>
    </table> 
